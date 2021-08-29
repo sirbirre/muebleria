@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    opacity: 0.95;
+    opacity: 0.9;
     text-shadow: rgba(0, 0, 0, 0.589);
 }
 
@@ -23,9 +23,9 @@ header {
 }
 
 header h1 {
-    font-size: 5em;
+    font-size: 4em;
     font-weight: lighter;
-    text-shadow: 2px 2px 40px rgba(0, 0, 0, 0.589);
+    text-shadow:2px 2px 40px rgba(0, 0, 0, 0.589);
 }
 @media (min-width: 320px) {
     header h1 {
