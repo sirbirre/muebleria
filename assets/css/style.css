@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1D3557;
+    color: #F1FAEE;
+    font-family: 'Lora', serif;
+}
+
+nav {
+    opacity: 0.95;
+    text-shadow: rgba(0, 0, 0, 0.589);
+}
+
+/*-----Header-----*/
+header {
+    background-image: url(/assets/img/header.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10em 10em 5em 10em;
+    
+}
+
+header h1 {
+    font-size: 5em;
+    font-weight: lighter;
+    text-shadow: 2px 2px 40px rgba(0, 0, 0, 0.589);
+}
+@media (min-width: 320px) {
+    header h1 {
+        font-size: 4em;
+    }
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 8em;
+    }
+}
+@media (min-width: 1024px) {
+    header h1 {
+        font-size: 8em;
+    }
+}
+/* ----cards---- */
+.card img {
+    max-height: 20vw;
+}
+
+    .bg-trabajos {
+    background-color: #E63946;
+}
+
+/* -----Carousel---- */
+.carousel-item img {
+    width: 100%;
+}
+
+.carousel-item {
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .carousel-item img {
+        max-height: 700px;
+        width: auto;   
+    }
+}
+/* ----typeform----- */
+@media (min-width: 768px) {
+.formsection {
+    width: 70%;
+    margin-left: 20em;
+    }
+}
+
+@media (min-width: 320px) {
+    .formsection {
+        width: 70%;
+        margin-left: 4em;
+        }
+    }
+    
+
+
