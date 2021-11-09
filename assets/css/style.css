@@ -1,10 +1,12 @@
-
-body {
+* {
     margin: 0;
     padding: 0;
-    background-color: #1D3557;
-    color: #F1FAEE;
     font-family: 'Lora', serif;
+}
+
+body {
+    background-color: #1D3557;
+    color: #1D3557;
 }
 
 nav {
@@ -12,24 +14,48 @@ nav {
     text-shadow: rgba(0, 0, 0, 0.589);
 }
 
+.logo {
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        margin: 0;
+    }
+}
+
+.logo img {
+    margin-right: 30px;
+}
+
+
 /*-----Header-----*/
+
+@media (min-width: 768px) {
+    .hdr-title {
+        padding: 0 3.25em;
+    }
+}
+
 header {
-    background-image: url(/assets/img/header.jpeg);
+    background-image: url(/muebleria/assets/img/header.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10em 10em 5em 10em;
-    
+    padding: 10em;
+    width: 100%;
 }
 
 header h1 {
     font-size: 4em;
     font-weight: lighter;
-    text-shadow:2px 2px 40px rgba(0, 0, 0, 0.589);
 }
+
 @media (min-width: 320px) {
     header h1 {
-        font-size: 4em;
+        font-size: 3em;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -38,21 +64,41 @@ header h1 {
         font-size: 3em;
     }
 }
+
 @media (min-width: 1024px) {
     header h1 {
         font-size: 3em;
     }
 }
+
+
 /* ----cards---- */
-.card img {
-    max-height: 20vw;
+
+.card {
+    margin-bottom: 10px;
 }
 
-    .bg-trabajos {
-    background-color: #E63946;
+.crds {
+    color: #1D3557;
 }
+
+@media (min-width: 768px) {
+    .crds {
+        padding: 0 3.25em;
+    }
+    .card img {
+        max-height: 20vw;
+    }
+}
+
+.bg-trabajos {
+    background-color: #E63946;
+    width: 100%;
+}
+
 
 /* -----Carousel---- */
+
 .carousel-item img {
     width: 100%;
 }
@@ -60,26 +106,19 @@ header h1 {
 .carousel-item {
     text-align: center;
 }
+
 @media (min-width: 768px) {
     .carousel-item img {
         max-height: 700px;
-        width: auto;   
+        width: auto;
     }
 }
+
+
 /* ----typeform----- */
+
 @media (min-width: 768px) {
-.formsection {
-    width: 70%;
-    margin-left: 20em;
+    @media (min-width: 320px) {
+        .formsection {}
     }
 }
-
-@media (min-width: 320px) {
-    .formsection {
-        width: 70%;
-        margin-left: 4em;
-        }
-    }
-    
-
-
