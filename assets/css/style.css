@@ -116,9 +116,3 @@ header h1 {
 
 
 /* ----typeform----- */
-
-@media (min-width: 768px) {
-    @media (min-width: 320px) {
-        .formsection {}
-    }
-}
